@@ -3,14 +3,16 @@
 #include "grafo.h"
 int main()
 {
-    Grafo *g = criar_grafo(5, FALSE);
+    Grafo *g = criar_grafo(2, FALSE);
     if (g == NULL){
          printf("Grafo não definido\n");
     }
     else{
-        printf("numero de vertices %d\n", g->num_vert);
-        printf("indice dos vertices ");
+        printf("Numero de vertices %d\n", g->num_vert);
+        printf("Indice dos vertices\n");
     }
+
+    int i;
     for(i = 0; i < g->num_vert; i++) {
         printf("\t%d\n", g->vertices[i].index);
     }

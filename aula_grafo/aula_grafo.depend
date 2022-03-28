@@ -1,13 +1,13 @@
 # depslib dependency file v1.0
-1647908873 source:c:\users\201951226801\desktop\aula_grafo\main.c
+1648507764 source:c:\users\201951226801\desktop\aula_grafo\main.c
 	<stdio.h>
 	<stdlib.h>
 	"grafo.h"
 
-1647908332 c:\users\201951226801\desktop\aula_grafo\grafo.h
+1648506262 c:\users\201951226801\desktop\aula_grafo\grafo.h
 	<stdio.h>
 	<stdlib.h>
 
-1647910150 source:c:\users\201951226801\desktop\aula_grafo\grafo.c
+1648507764 source:c:\users\201951226801\desktop\aula_grafo\grafo.c
 	"Grafo.h"
 

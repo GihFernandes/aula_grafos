@@ -40,11 +40,11 @@ Grafo* criar_grafo(int num_vert, int digrafo);
 Grafo* criar_grafo_nomes(int num_vert, int digrafo, char *nomes[]);
 
 //Criar arestas
-int criar_aresta(Grafo*g, int v_orig, int v_dest);
-int criar_aresta_peso(Grafo*g, int v_orig, int v_dest, int peso);
+int criar_aresta(Grafo *g, int v_orig, int v_dest);
+int criar_aresta_peso(Grafo *g, int v_orig, int v_dest, int peso);
 
 // Remove Aresta
-int remover_aresta(Grafo*g, int v_orig, int v_dest);
+int remover_aresta(Grafo *g, int v_orig, int v_dest);
 
 
 #endif // GRAFO_H_INCLUDED

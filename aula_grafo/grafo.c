@@ -8,11 +8,11 @@
 //Cria um grafo, ou um digrafo, com o numero de vertices definido
 Grafo* criar_grafo(int num_vert, int digrafo)
 {
-    if (num_vert <=0)return NULL;
+    if (num_vert <=0) return NULL;
     Grafo *g = (Grafo*)malloc(sizeof(Grafo));
     g->num_vert = num_vert;
     g->num_aresta = 0;
-    g->digrafo =(digrafo == FALSE) ? FALSE : TRUE;
+    g->digrafo =(digrafo == FALSE)? FALSE : TRUE;
 
     g->vertices = (Vertice*)calloc(num_vert, sizeof(Vertice));
 
@@ -22,7 +22,7 @@ Grafo* criar_grafo(int num_vert, int digrafo)
         g->vertices[i].lista_adj = NULL;
     }
 
-    return NULL;
+    return g;
 }
 //E vertices nomeados
 Grafo* criar_grafo_nomes(int num_vert, int digrafo, char *nomes[])
@@ -31,17 +31,17 @@ Grafo* criar_grafo_nomes(int num_vert, int digrafo, char *nomes[])
 }
 
 //Criar arestas
-int criar_aresta(Grafo*g, int v_orig, int v_dest)
+int criar_aresta(Grafo *g, int v_orig, int v_dest)
 {
     return OP_OK;
 }
-int criar_aresta_peso(Grafo*g, int v_orig, int v_dest, int peso)
+int criar_aresta_peso(Grafo *g, int v_orig, int v_dest, int peso)
 {
     return OP_OK;
 }
 
 // Remove Aresta
-int remover_aresta(Grafo*g, int v_orig, int v_dest)
+int remover_aresta(Grafo *g, int v_orig, int v_dest)
 {
     return OP_OK;
 }
